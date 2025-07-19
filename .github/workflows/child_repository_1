@@ -9,8 +9,5 @@ jobs:
   run-child-1:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout Code
-        uses: actions/checkout@v2
-
-      - name: Run some task in Child 1
-        run: echo "Running task in Child 1"
+      - name: Run some task in Child
+        run: echo "Running task in Child repoository"
